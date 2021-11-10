@@ -1,6 +1,6 @@
 def depth_first_search(graph, source):
 
-    stack = [source];
+    stack = [source]
 
     while len(stack) > 0 :
         current = stack.pop()
