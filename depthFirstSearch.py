@@ -7,7 +7,6 @@ def depth_first_search(graph, source):
         print(current)
         for neighbor in graph[current]:
             stack.append(neighbor)
-            print(stack)
 
 
 graph = {
